@@ -12,35 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
       rel="stylesheet" />
     <title>Seven Seas Spa</title>
-    <style>
-      .navbar-custom {
-        color: #3b2f2f;
-      }
-
-      .navbar-custom .nav-link {
-        color: #3b2f2f;
-      }
-
-      .navbar-custom .nav-link.active {
-        font-weight: bold;
-      }
-
-      .hero-section {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-          url("assets/images/hero.png") no-repeat center center;
-        background-size: cover;
-        color: #ffebd4;
-        padding: 100px 0;
-      }
-
-      .hero-section h1 {
-        font-family: "Handlee", cursive;
-      }
-
-      .btn {
-        color: #3b2f2f;
-      }
-    </style>
+    <link rel="stylesheet" href="assets/styles/main.css" />
   </head>
 
   <body>
@@ -64,7 +36,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -73,7 +47,7 @@
               <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -88,7 +62,7 @@
 
     <!-- Services Section Start -->
     <section class="container my-5">
-      <h2 class="text-center mb-4" style="color: #3b2f2f">Our Services</h2>
+      <h2 class="text-center mb-4 section-title">Our Services</h2>
       <div class="row g-4">
         <div class="col-md-6 col-lg-3">
           <div class="card h-100">
@@ -97,7 +71,7 @@
               class="card-img-top"
               alt="Yoga Classes" />
             <div class="card-body">
-              <h5 class="card-title" style="color: #3b2f2f">Yoga Classes</h5>
+              <h5 class="card-title">Yoga Classes</h5>
               <p class="card-text">
                 Join our expert-led yoga sessions to improve flexibility,
                 strength, and inner peace.
@@ -112,9 +86,7 @@
               class="card-img-top"
               alt="Nutritional Advice" />
             <div class="card-body">
-              <h5 class="card-title" style="color: #3b2f2f">
-                Nutritional Advice
-              </h5>
+              <h5 class="card-title">Nutritional Advice</h5>
               <p class="card-text">
                 Get personalized nutritional guidance to support your health and
                 wellness goals.
@@ -129,9 +101,7 @@
               class="card-img-top"
               alt="Mental Health Support" />
             <div class="card-body">
-              <h5 class="card-title" style="color: #3b2f2f">
-                Mental Health Support
-              </h5>
+              <h5 class="card-title">Mental Health Support</h5>
               <p class="card-text">
                 Access compassionate support and resources for your mental and
                 emotional wellbeing.
@@ -146,9 +116,7 @@
               class="card-img-top"
               alt="Wellness Program" />
             <div class="card-body">
-              <h5 class="card-title" style="color: #3b2f2f">
-                Wellness Program
-              </h5>
+              <h5 class="card-title">Wellness Program</h5>
               <p class="card-text">
                 Experience our holistic wellness programs designed for lasting
                 lifestyle improvements.
@@ -162,7 +130,7 @@
 
     <!-- Wellness Tips Section Start -->
     <section class="container my-5">
-      <h2 class="text-center mb-4" style="color: #3b2f2f">Wellness Tips</h2>
+      <h2 class="text-center mb-4 section-title">Wellness Tips</h2>
       <div class="row justify-content-center">
         <div class="col-md-8">
           <ul class="list-group list-group-flush fs-5">
@@ -190,9 +158,7 @@
 
     <!-- Testimonials Carousel Start -->
     <section class="container my-5">
-      <h2 class="text-center mb-4" style="color: #3b2f2f">
-        What Our Clients Say
-      </h2>
+      <h2 class="text-center mb-4 section-title">What Our Clients Say</h2>
       <div
         id="testimonialCarousel"
         class="carousel slide"
@@ -204,7 +170,7 @@
                 "Seven Seas Spa has completely transformed my wellness journey.
                 The staff are so caring and knowledgeable!"
               </p>
-              <span class="fw-bold" style="color: #3b2f2f">– Alex P.</span>
+              <span class="fw-bold testimonial-author">– Alex P.</span>
             </div>
           </div>
 
@@ -214,7 +180,7 @@
                 "The yoga classes are amazing and the atmosphere is so relaxing.
                 Highly recommend to anyone!"
               </p>
-              <span class="fw-bold" style="color: #3b2f2f">– Jamie L.</span>
+              <span class="fw-bold testimonial-author">– Jamie L.</span>
             </div>
           </div>
 
@@ -224,7 +190,7 @@
                 "I love the holistic approach at Seven Seas Spa. The wellness
                 tips and support have made a real difference."
               </p>
-              <span class="fw-bold" style="color: #3b2f2f">– Morgan S.</span>
+              <span class="fw-bold testimonial-author">– Morgan S.</span>
             </div>
           </div>
         </div>
@@ -249,23 +215,23 @@
     <!-- Testimonials Carousel End -->
 
     <!-- Footer Start -->
-    <footer class="mt-5" style="background-color: #6f4e37">
+    <footer class="footer mt-5">
       <div class="container py-4">
         <div class="d-flex justify-content-center mb-3">
-          <a href="#" class="mx-3" style="color: #ffebd4; font-size: 1.5rem">
+          <a href="#" class="mx-3 social-link">
             <i class="fab fa-facebook-f"></i>
           </a>
-          <a href="#" class="mx-3" style="color: #ffebd4; font-size: 1.5rem">
+          <a href="#" class="mx-3 social-link">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="#" class="mx-3" style="color: #ffebd4; font-size: 1.5rem">
+          <a href="#" class="mx-3 social-link">
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="#" class="mx-3" style="color: #ffebd4; font-size: 1.5rem">
+          <a href="#" class="mx-3 social-link">
             <i class="fab fa-linkedin-in"></i>
           </a>
         </div>
-        <p class="text-center mb-0" style="color: #ffebd4">
+        <p class="text-center mb-0">
           &copy; 2025 Seven Seas Spa. All rights reserved.
         </p>
       </div>

@@ -30,3 +30,41 @@
   height: 200px;
   object-fit: cover;
 }
+
+/* General Section Titles */
+.section-title {
+  color: #3b2f2f;
+  font-family: "Handlee", cursive;
+}
+
+/* Card Titles */
+.card-title {
+  color: #3b2f2f;
+  font-family: "Handlee", cursive;
+}
+
+/* Testimonial Author */
+.testimonial-author {
+  color: #3b2f2f;
+}
+
+/* Footer */
+.footer {
+  background-color: #6f4e37 !important;
+}
+.footer .social-link {
+  color: #ffebd4 !important;
+  font-size: 1.5rem;
+}
+.footer p {
+  color: #ffebd4 !important;
+}
+
+.contact-title {
+  font-family: "Handlee", cursive;
+  color: #3b2f2f;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5em;
+  text-shadow: 1px 1px 8px #ffebd480;
+}
