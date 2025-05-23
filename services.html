@@ -1,3 +1,4 @@
+<!-- Copy of the navbar and footer from index.html, main content omitted -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,12 +16,12 @@
     <link rel="stylesheet" href="assets/styles/main.css" />
   </head>
 
-  <body class="min-vh-100 d-flex flex-column">
+  <body>
     <!-- Navbar Start -->
     <nav
       class="navbar navbar-expand-lg navbar-light bg-white navbar-custom sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="#">
           <img src="assets/images/logo.png" alt="Logo" width="30" height="30" />
           Seven Seas Spa
         </a>
@@ -37,13 +38,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -53,77 +56,58 @@
       </div>
     </nav>
     <!-- Navbar End -->
-
-    <!-- Hero Section Start -->
-    <div class="container-fluid hero-section text-center">
-      <h1 class="display-4">About Us</h1>
-      <p class="lead">
-        Improving health and wellbeing through wellness services
-      </p>
-    </div>
-    <!-- Hero Section End -->
-
-    <!-- Main Content -->
-    <section class="container my-5 flex-grow-1">
-      <h2 class="section-title mb-4 text-center">Who We Are</h2>
-      <p class="fs-5 text-center">
-        At Seven Seas Spa, we are passionate about improving your health and
-        wellbeing through a holistic range of wellness services. Our offerings
-        include expert-led yoga classes to enhance flexibility and inner peace,
-        personalized nutritional advice to support your healthy lifestyle,
-        compassionate mental health support for emotional balance, and
-        comprehensive wellness programs designed to help you thrive. We are
-        dedicated to guiding you on your journey to a healthier, happier you.
-      </p>
-
-      <h2 class="section-title mb-4 text-center mt-5">Our Mission</h2>
-      <p class="fs-5 text-center">
-        Our mission is to empower individuals to achieve lasting health and
-        happiness by providing holistic wellness services. Through yoga,
-        nutritional guidance, mental health support, and comprehensive wellness
-        programs, we strive to nurture both body and mind, helping our community
-        thrive and live life to the fullest.
-      </p>
-
-      <h2 class="section-title mb-4 text-center mt-5">Our Team</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 shadow-sm">
+    <section class="container my-5">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow">
+            <img src="assets/images/yoga.png" class="card-img-top" alt="Yoga Classes" />
             <div class="card-body text-center">
-              <h5 class="card-title">Emily</h5>
+              <h5 class="card-title">Yoga Classes</h5>
               <p class="card-text">
-                Emily is our lead yoga instructor, passionate about helping
-                clients find balance and flexibility through mindful movement.
+                Join our expert-led yoga sessions to improve flexibility, strength, and inner peace.<br>
+                <strong>Classes:</strong> Mondays & Thursdays, 6:00pm – 7:00pm
               </p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 shadow-sm">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow">
+            <img src="assets/images/nutrition.png" class="card-img-top" alt="Nutritional Advice" />
             <div class="card-body text-center">
-              <h5 class="card-title">Jane</h5>
+              <h5 class="card-title">Nutritional Advice</h5>
               <p class="card-text">
-                Jane specializes in nutritional advice, guiding our guests to
-                make healthy choices and achieve their wellness goals.
+                Get personalized nutritional guidance to support your health and wellness goals.<br>
+                <strong>Sessions:</strong> Wednesdays, 5:00pm – 6:00pm
               </p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 shadow-sm">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow">
+            <img src="assets/images/mental_health.png" class="card-img-top" alt="Mental Health Support" />
             <div class="card-body text-center">
-              <h5 class="card-title">John</h5>
+              <h5 class="card-title">Mental Health Support</h5>
               <p class="card-text">
-                John provides compassionate mental health support and leads our
-                wellness programs, ensuring a holistic approach for every
-                client.
+                Access compassionate support and resources for your mental and emotional wellbeing.<br>
+                <strong>Group Support:</strong> Fridays, 4:00pm – 5:00pm
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow">
+            <img src="assets/images/wellness.png" class="card-img-top" alt="Wellness Program" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Wellness Program</h5>
+              <p class="card-text">
+                Experience our holistic wellness programs designed for lasting lifestyle improvements.<br>
+                <strong>Workshops:</strong> Saturdays, 10:00am – 12:00pm
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <!-- Footer Start -->
     <footer class="footer mt-5">
       <div class="container py-4">
